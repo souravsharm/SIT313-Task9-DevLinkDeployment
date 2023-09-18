@@ -1,0 +1,36 @@
+.footer-items{
+    
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.footer{
+    margin-top:20px;
+    margin-left:10px;
+    width: 100%;
+    color:white;
+    background:var(--component-background-primary);
+    padding-bottom: 75px;
+    
+}
+.colItems{
+    display: flex;
+    flex-direction: column;
+}
+.devLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connected{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.devLink-items{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}

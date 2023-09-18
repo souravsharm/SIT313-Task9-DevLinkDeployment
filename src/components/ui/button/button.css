@@ -1,0 +1,22 @@
+.button{
+    background:var(--button-primary);
+    color:white;
+    height: 50px;
+    width:100px;
+    border-radius: 5px;
+    border:5px;
+    transition: var(--transition);
+    font-size:var(--text-lg);
+
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.button:hover{
+    background: grey;
+    
+}

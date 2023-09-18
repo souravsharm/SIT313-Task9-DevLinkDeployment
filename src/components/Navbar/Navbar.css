@@ -1,0 +1,36 @@
+a{
+    color:white;
+    text-decoration: none;
+
+    
+    
+
+}
+.nav{
+   
+    color:black;
+    margin-bottom: 5px;
+    padding:5px;
+    height: 50px;
+    width: 100%;
+    background:var(--component-background-primary);
+    display:flex;
+    align-items: flex-start;
+    gap:40px;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.nav-items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding:15px;
+    
+    
+
+}
+a:hover{
+    color:var(--link-hover);
+    transition: var(--transition);
+}
