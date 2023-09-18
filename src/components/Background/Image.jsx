@@ -1,10 +1,10 @@
 import React from 'react'
 import './Image.css'
-const Image = () => {
+const Image = (props) => {
   return (
-    <div>
-        <img className='BackImage' src='/backImage.jpeg' alt='Background Image'/>
-     
+    <div className="image-container">
+            <img className='BackImage' src='/backImage.jpeg' alt='Background Image'/>
+            <div className="image-text">"{props.text}"</div>
     </div>
   )
 }

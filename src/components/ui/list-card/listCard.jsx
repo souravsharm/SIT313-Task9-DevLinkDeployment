@@ -6,7 +6,7 @@ const ListCard = ({props}) => {
   return (
     <div className='card'>
         <div className='image'>
-            <img src={props.image}/>
+            <img src={props.image} alt='personimage'/>
         </div>
         
         <div className='developerName'>

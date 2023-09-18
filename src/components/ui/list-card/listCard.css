@@ -14,7 +14,8 @@
     height:200px;
     width: 100%;
     overflow: hidden;
-    padding:10px;
+    padding: 5px;
+    
 }
 .developerName{
     margin-bottom:0;
@@ -36,15 +37,16 @@
     
 }
 .image img{
+    display: block;
     height: 100%;
     width: 90%;
     object-fit: cover;
-    
+    margin-left: auto;   /* Added this */
+    margin-right: auto;  /* Added this */
     border-radius: 7px;
-    
-    
     background: var(--gray);
 }
+
 .rating{
     gap:20px;
     display:flex;

@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
         <div >
-            <h1>
+            <h1 style={{margin:'5px'}}>
                 DevLink MarketPlace
             </h1>
             

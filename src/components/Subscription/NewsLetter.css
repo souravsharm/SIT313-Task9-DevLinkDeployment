@@ -1,20 +1,27 @@
-.signup{
+.newsletter{
     background-color: lightgrey;
-    padding:20px 0px;
+    padding:10px 0px;
     text-align: center;
+    margin-top: 20px;
     
 }
 .text{
-    margin-left: 20px;
-    
     font-size: larger;
     font-weight: bold;
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
 .email{
+    width: 250px;
     margin-left: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 25px;
     
 }
 .button{
     margin: 5px;
     
 }
+

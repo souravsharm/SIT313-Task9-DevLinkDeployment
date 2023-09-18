@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       
       <Navbar/>
-      <Image/>
+      <Image text='Bringing your imagination to life'/>
       <List title="Featured FreeLancers"/>
       <List title="Featured Customers"/>
       <NewsLetter/>
