@@ -1,22 +1,18 @@
 
 import './App.css';
-
-import Navbar from './components/Navbar/Navbar';
-import Image from './components/Background/Image';
-import List from './components/ui/List/List';
-import Footer from './components/Footer/Footer';
-import NewsLetter from './components/Subscription/NewsLetter';
+import {Routes,Route} from 'react-router-dom';
+import SignUp from './components/NavLinks/SignUp';
+import SignIn from './components/NavLinks/SignIn';
+import HomePage from './components/NavLinks/HomePage';
 function App() {
   return (
     <div className="App">
       
-      <Navbar/>
-      <Image text='Bringing your imagination to life'/>
-      <List title="Featured FreeLancers"/>
-      <List title="Featured Customers"/>
-      <NewsLetter/>
-      <Footer />
-
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/signin' element={<SignIn/>}/>  
+      <Route path='/signup' element={<SignUp/>}/>
+    </Routes>
      
     </div>
   );

@@ -16,10 +16,10 @@ const Navbar = () => {
             <a href='/home'className='link'>
                 Find Jobs
             </a>
-            <a href='/home'className='link'>
+            <a href='/signin'className='link'>
                 Login
             </a>
-            <a href='/home' className='link'>
+            <a href='/signup' className='link'>
                 SignUp
             </a>
         </div>
