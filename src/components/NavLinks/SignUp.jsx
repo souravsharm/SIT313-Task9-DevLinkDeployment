@@ -46,7 +46,7 @@ export default function SignUp() {
   return (
     <div className='login'>
       <div className='title'>Create DevLink Account</div>
-      <form className="form" onSubmit={handleSubmit(onSubmitHandler)}>
+      <form className="formSignUp" onSubmit={handleSubmit(onSubmitHandler)}>
         <input {...register("name")} placeholder="Name" />
         <p>{errors.name?.message}</p>
 

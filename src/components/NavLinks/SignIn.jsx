@@ -53,7 +53,7 @@ const SignIn = () => {
   return (
     <div className='signin'>
       <div className='title'>Login</div>
-      <form  className= 'form' onSubmit={handleSubmit(onSubmitHandler)} action='/'>
+      <form  className= 'formSignIn' onSubmit={handleSubmit(onSubmitHandler)} action='/'>
         
         <input className='Input'{...register("email")} placeholder="Email" type="email" />
         <p>{errors.email?.message}</p>

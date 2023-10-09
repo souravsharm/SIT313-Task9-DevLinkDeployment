@@ -4,7 +4,13 @@ import {getFirestore,doc,getDoc,setDoc} from 'firebase/firestore'
 
  
 const firebaseConfig = {
-  //Your config
+  apiKey: "AIzaSyAeEy0OB7rvrzSgh6y4BlMwJzrtZ62JK48",
+  authDomain: "devlink-project-react.firebaseapp.com",
+  projectId: "devlink-project-react",
+  storageBucket: "devlink-project-react.appspot.com",
+  messagingSenderId: "203181244396",
+  appId: "1:203181244396:web:bd23f39809dfc1abe38ac9",
+  measurementId: "G-KH3NJF0ZL4"
 };
 
 // Initialize Firebase
