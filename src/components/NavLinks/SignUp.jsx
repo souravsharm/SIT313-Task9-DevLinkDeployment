@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import {createUserDocFromAuth, auth } from "../../Utils/config/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
+import { Link } from 'react-router-dom'; 
 import { useNavigate } from 'react-router-dom';
 import './SignUp.css'
  
@@ -61,7 +62,7 @@ export default function SignUp() {
 
         <button className = 'signUpsubmit' type="submit">Sign Up</button><br/>
         <span className="toggleSignPages">Already have an account? 
-          <a className="link" href="/signin" > Login </a>
+        <Link className="link" to="/signin"> Login </Link>
         </span>
       </form>
     </div>

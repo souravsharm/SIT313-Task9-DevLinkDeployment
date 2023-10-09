@@ -5,7 +5,7 @@ import { FaGoogle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import{signInWithPopup,signInWithEmailAndPassword} from 'firebase/auth'
 import { auth, googleProvider } from "../../Utils/config/firebase";
-
+import { Link } from 'react-router-dom'; 
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
@@ -67,7 +67,7 @@ const SignIn = () => {
           
         </button> 
         <span className="toggleSignPages">Already have an account? 
-          <a className="link" href="/signup" > SignUp </a>
+          <Link className="link" to="/signup"> SignUp </Link>
         </span>
       </form>
     </div>
