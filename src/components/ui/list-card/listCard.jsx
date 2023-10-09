@@ -22,7 +22,7 @@ const ListCard = ({props}) => {
             </div>
             
         </div>
-        <hr class="dotted"/>
+        <hr className="dotted"/>
         <div className='rating'>
             <div className= 'rating-icon'>
                 <Star size={30}/>
