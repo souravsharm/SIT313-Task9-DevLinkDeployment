@@ -1,5 +1,7 @@
-import React from 'react'
-import "./Navbar.css"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <div className='nav'>
@@ -7,25 +9,23 @@ const Navbar = () => {
             <h1 style={{margin:'5px'}}>
                 DevLink MarketPlace
             </h1>
-            
         </div>
         <div className='nav-items'>
-            <a href='/home' className='link'>
+            <Link to='/home' className='link'>
                 Find DEV
-            </a>
-            <a href='/home'className='link'>
+            </Link>
+            <Link to='/home' className='link'>
                 Find Jobs
-            </a>
-            <a href='/signin'className='link'>
+            </Link>
+            <Link to='/signin' className='link'>
                 Login
-            </a>
-            <a href='/signup' className='link'>
+            </Link>
+            <Link to='/signup' className='link'>
                 SignUp
-            </a>
+            </Link>
         </div>
-        
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
