@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Link to the website:
+
+https://devlink-sit313.netlify.app/ 
 
 =======
 # Getting Started with Create React App
